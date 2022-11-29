@@ -1,0 +1,39 @@
+/**
+ * WPERP Awesome Support
+ * http://pluginever.com
+ *
+ * Copyright (c) 2017 WPERP
+ * Licensed under the GPLv2+ license.
+ */
+/**
+ * ERP Help Scout
+ * http://wperp.com
+ *
+ * Copyright (c) 2017 WPERP
+ * Licensed under the GPLv2+ license.
+ */
+.erp-as-activity .inside {
+  min-height: 30px; }
+.erp-as-activity .ticket-meta {
+  display: block; }
+.erp-as-activity .ticket-meta a {
+  font-size: 1.1em;
+  font-weight: 600; }
+.erp-as-activity .ticket-status {
+  color: #fff;
+  margin-left: 10px;
+  padding: 0px 10px;
+  border-radius: 3px;
+  line-height: 1.1em; }
+  .erp-as-activity .ticket-status.open {
+    background: green; }
+  .erp-as-activity .ticket-status.closed {
+    background: black; }
+  .erp-as-activity .ticket-status.pending {
+    background: orange; }
+
+.erp-awesome-support-more {
+  text-align: center;
+  display: inherit; }
+
+/*# sourceMappingURL=erp-awesome-support.css.map */

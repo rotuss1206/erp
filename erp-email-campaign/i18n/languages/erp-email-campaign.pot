@@ -1,0 +1,1741 @@
+# Copyright (C) 2018 weDevs
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP ERP - Email Campaign 1.1.0\n"
+"Report-Msgid-Bugs-To: http://wperp.com/support/\n"
+"POT-Creation-Date: 2018-10-30 12:18:40+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/class-admin.php:43
+msgid "Do nothing"
+msgstr ""
+
+#: includes/class-admin.php:44
+msgid "Trash User"
+msgstr ""
+
+#: includes/class-admin.php:45
+msgid "Unsubscribe User"
+msgstr ""
+
+#: includes/class-admin.php:46
+msgid "Unsubscribe User and add to the list..."
+msgstr ""
+
+#: includes/class-admin.php:190 includes/class-admin.php:325
+msgid "Search Contact"
+msgstr ""
+
+#: includes/class-admin.php:208 includes/class-admin.php:343
+msgid "Filter by Contact Group"
+msgstr ""
+
+#: includes/class-admin.php:214 includes/class-admin.php:349
+#: includes/class-email-campaign-editor.php:212
+#: includes/class-templates.php:368
+msgid "Name"
+msgstr ""
+
+#: includes/class-admin.php:215 includes/class-admin.php:350
+msgid "Email Status"
+msgstr ""
+
+#: includes/class-admin.php:216 includes/class-admin.php:351
+#: includes/class-email-campaign-editor.php:229
+#: includes/class-email-campaign-list-table.php:307
+#: views/email-campaign-single-view.php:45
+msgid "Lists"
+msgstr ""
+
+#: includes/class-admin.php:217 includes/class-admin.php:352
+msgid "Subscription Status"
+msgstr ""
+
+#: includes/class-admin.php:218 includes/class-admin.php:353
+#: includes/class-email-campaign.php:715 includes/class-single-campaign.php:265
+msgid "Opened"
+msgstr ""
+
+#: includes/class-admin.php:219 includes/class-admin.php:354
+msgid "Are you sure you want to duplicate this campaign?"
+msgstr ""
+
+#: includes/class-admin.php:241 includes/class-admin.php:376
+msgid "After an email bounces"
+msgstr ""
+
+#: includes/class-admin.php:242 includes/class-admin.php:377
+msgid "Select a contact group"
+msgstr ""
+
+#: includes/class-admin.php:243 includes/class-admin.php:378
+msgid "You must select a group."
+msgstr ""
+
+#: includes/class-admin.php:393 includes/class-admin.php:400
+#: includes/class-admin.php:929 includes/class-admin.php:1144
+#: includes/class-hooks.php:238
+msgid "Email Campaign"
+msgstr ""
+
+#: includes/class-admin.php:395 includes/class-admin.php:408
+msgid "All Campaigns"
+msgstr ""
+
+#: includes/class-admin.php:396 includes/class-admin.php:416
+#: views/email-campaign-list.php:11
+msgid "Add New"
+msgstr ""
+
+#: includes/class-admin.php:397 includes/class-admin.php:424
+#: includes/class-email-campaign-editor.php:248
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:701
+msgid "%d campaign moved to the Trash."
+msgid_plural "%d campaigns moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-admin.php:705
+msgid "%d campaign restored from the Trash."
+msgid_plural "%d campaigns restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-admin.php:709
+msgid "%d campaign permanently deleted."
+msgid_plural "%d campaigns permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-admin.php:714 includes/class-email-campaign-ajax.php:365
+msgid "Campaign duplicated successfully. <a href=\"%s\">View campaign</a>"
+msgstr ""
+
+#: includes/class-admin.php:741
+#: includes/class-email-campaign-list-table.php:311
+msgid "Bounce"
+msgstr ""
+
+#: includes/class-admin.php:759 includes/class-admin.php:772
+msgid "Bounce Settings Options"
+msgstr ""
+
+#: includes/class-admin.php:762
+msgid ""
+"Your server does not have PHP IMAP extension loaded. To enable this "
+"feature, please contact your hosting provider and ask to enable PHP IMAP "
+"extension."
+msgstr ""
+
+#: includes/class-admin.php:774
+msgid "Email bounce settings for ERP Email Campaign."
+msgstr ""
+
+#: includes/class-admin.php:782
+msgid "When bounce occurs"
+msgstr ""
+
+#: includes/class-admin.php:788
+msgid "Enable Settings"
+msgstr ""
+
+#: includes/class-admin.php:791 includes/class-email-campaign-editor.php:318
+msgid "Yes"
+msgstr ""
+
+#: includes/class-admin.php:791 includes/class-email-campaign-editor.php:319
+msgid "No"
+msgstr ""
+
+#: includes/class-admin.php:796
+msgid "Cron Schedule"
+msgstr ""
+
+#: includes/class-admin.php:799
+msgid "Interval time to run cron."
+msgstr ""
+
+#: includes/class-admin.php:801
+msgid "Every Minute"
+msgstr ""
+
+#: includes/class-admin.php:802
+msgid "Hourly"
+msgstr ""
+
+#: includes/class-admin.php:803
+msgid "Twice Daily"
+msgstr ""
+
+#: includes/class-admin.php:804
+msgid "Daily"
+msgstr ""
+
+#: includes/class-admin.php:805
+msgid "Weekly"
+msgstr ""
+
+#: includes/class-admin.php:811
+msgid "Mail Server"
+msgstr ""
+
+#: includes/class-admin.php:817
+msgid "IMAP/POP3 host address."
+msgstr ""
+
+#: includes/class-admin.php:821
+msgid "Username"
+msgstr ""
+
+#: includes/class-admin.php:824
+msgid "Your email id."
+msgstr ""
+
+#: includes/class-admin.php:831
+msgid "Password"
+msgstr ""
+
+#: includes/class-admin.php:834
+msgid "Your email password."
+msgstr ""
+
+#: includes/class-admin.php:838
+msgid "Protocol"
+msgstr ""
+
+#: includes/class-admin.php:841
+msgid "Protocol type."
+msgstr ""
+
+#: includes/class-admin.php:842
+msgid "IMAP"
+msgstr ""
+
+#: includes/class-admin.php:842
+msgid "POP3"
+msgstr ""
+
+#: includes/class-admin.php:847
+msgid "Port"
+msgstr ""
+
+#: includes/class-admin.php:850
+msgid "IMAP: 993<br> POP3: 995"
+msgstr ""
+
+#: includes/class-admin.php:854
+msgid "Authentication"
+msgstr ""
+
+#: includes/class-admin.php:857
+msgid "SSL"
+msgstr ""
+
+#: includes/class-admin.php:857
+msgid "TLS"
+msgstr ""
+
+#: includes/class-admin.php:857 includes/class-email-campaign-editor.php:369
+msgid "None"
+msgstr ""
+
+#: includes/class-admin.php:859
+msgid "Authentication type."
+msgstr ""
+
+#: includes/class-admin.php:893
+#: includes/class-email-campaign-list-table.php:306
+#: views/email-campaign-single-view.php:16
+msgid "Status"
+msgstr ""
+
+#: includes/class-admin.php:896
+msgid "Connected"
+msgstr ""
+
+#: includes/class-admin.php:896
+msgid "Not Connected"
+msgstr ""
+
+#: includes/class-admin.php:947
+msgid "Email Campaign Settings"
+msgstr ""
+
+#: includes/class-admin.php:952 includes/class-admin.php:1004
+#: includes/class-email-campaign-editor.php:215
+msgid "Send"
+msgstr ""
+
+#: includes/class-admin.php:958
+msgid "Campaign Manager"
+msgstr ""
+
+#: includes/class-admin.php:967
+msgid ""
+"Selected user roles will have permission to create, view, update and delete "
+"campaigns"
+msgstr ""
+
+#: includes/class-admin.php:972
+msgid "Use Debug Log"
+msgstr ""
+
+#: includes/class-admin.php:975
+msgid ""
+"Log miscelloneous actions into debug.log <p class=\"description\">Please "
+"use <strong>%s</strong> and <strong>%s</strong> <br>in your "
+"<strong>wp-config.php</strong></p>"
+msgstr ""
+
+#: includes/class-admin.php:1011
+msgid "Your web host has limits. We suggest 60 emails per hour to be safe."
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:96
+msgid "Something went wrong! Please try again."
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:108
+msgid "Campaign updated successfully"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:193
+#: includes/class-email-campaign-ajax.php:220
+#: includes/class-email-campaign-list-table.php:94
+#: includes/class-email-campaign-list-table.php:620
+#: includes/class-email-campaign.php:68
+msgid "Paused"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:197
+#: includes/class-email-campaign-list-table.php:456
+msgid "Resume this item"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:199
+#: includes/class-email-campaign-list-table.php:458
+msgid "Resume"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:205
+#: includes/class-email-campaign-list-table.php:465
+msgid "Edit this item"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:206
+#: includes/class-email-campaign-list-table.php:466
+msgid "Edit"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:248
+#: includes/class-email-campaign-list-table.php:627
+#: views/email-campaign-single-view.php:21
+msgid "send at"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:256
+#: includes/class-email-campaign-editor.php:219
+#: includes/class-email-campaign-editor.php:346
+#: includes/class-email-campaign-list-table.php:635
+#: includes/class-email-campaign.php:62 views/email-campaign-single-view.php:20
+msgid "Scheduled"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:263
+#: includes/class-email-campaign.php:56
+msgid "In Progress"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:272
+msgid "Pause this item"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:274
+#: includes/class-email-campaign-list-table.php:501
+msgid "Pause"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:280
+#: includes/class-email-campaign-list-table.php:509
+msgid "View this item"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:281
+#: includes/class-email-campaign-list-table.php:510
+#: views/email-campaign-single-view.php:75
+msgid "View"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:301
+#: includes/class-email-campaign-list-table.php:573
+#: includes/class-single-campaign.php:387
+msgid ""
+"Sending <strong>%s%s</strong> after a new <strong>%s</strong> is added.<br> "
+"Sent to <strong>%d</strong> subscribers"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:313
+#: includes/class-email-campaign-list-table.php:585
+#: includes/class-single-campaign.php:399
+msgid ""
+"Sending <strong>%s%s</strong> after a new or updated contact matches the "
+"segment <strong>%s</strong>.<br> Sent to <strong>%d</strong> subscribers"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:322
+#: includes/class-email-campaign-list-table.php:594
+#: includes/class-single-campaign.php:408
+msgid ""
+"Sending <strong>%s</strong> when a new or updated contact matches the "
+"segment <strong>%s</strong>.<br> Sent to <strong>%d</strong> subscribers"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:333
+#: includes/class-email-campaign-list-table.php:606
+#: includes/class-single-campaign.php:419
+msgid ""
+"Sending <strong>%s%s</strong> after someone subscribes to the list "
+"<strong>%s</strong>.<br> Sent to <strong>%d</strong> subscribers"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:360
+msgid "Could not duplicate this campaign. Please try again."
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:415
+msgid "Invalid email address."
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:421
+msgid "Invalid campaign"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:426
+msgid "Preview campaign"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:462
+msgid "Mail sent successfully"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:464
+msgid "Mail sending failed"
+msgstr ""
+
+#: includes/class-email-campaign-ajax.php:472
+msgid "Invalid operation"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:77
+msgid "Edit Campaign"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:77
+msgid "Create Campaign"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:127
+#: includes/class-email-campaign-editor.php:503
+#: includes/class-templates.php:311 includes/class-templates.php:373
+msgid "Website"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:205
+msgid "Previous"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:206
+msgid "Next"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:207
+msgid "Schedule Campaign"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:208
+msgid "Activate Now"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:209
+msgid "Save as Draft"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:210
+#: includes/class-email-campaign-list-table.php:305
+msgid "Email Subject"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:211
+msgid "Sender"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:213
+#: views/email-campaign-single-view.php:61
+msgid "Reply To"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:214
+msgid "Campaign Name"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:216
+msgid "Newsletter Type"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:217
+msgid "Immediately"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:218
+msgid "Immediately after"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:220
+#: includes/class-email-campaign-list-table.php:78
+msgid "Standard"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:221
+#: includes/class-email-campaign-list-table.php:404
+msgid "Automatic Newsletter"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:222
+msgid "Automatically Send"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:223
+msgid "hour(s) after"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:224
+msgid "day(s) after"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:225
+msgid "week(s) after"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:226
+msgid "Schedule"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:227
+msgid "Delivery Date"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:228
+msgid "Delivery Time"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:230
+msgid "Content"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:231
+msgid "Design"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:232
+msgid "Templates"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:233
+msgid "Basic"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:234
+msgid "Themes"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:235
+msgid "Text"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:236
+msgid "Image"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:237
+msgid "Image Group"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:238
+msgid "Image Caption"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:239
+msgid "Image Card"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:240
+msgid "Social Share"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:241
+msgid "Social Follow"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:242
+msgid "WP Posts"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:243
+msgid "Latest Contents"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:244
+msgid "Button"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:245
+msgid "Divider"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:246
+msgid "Video"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:247
+msgid "Style"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:249
+#: includes/class-email-campaign-editor.php:258
+msgid "Number of Columns"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:250
+msgid "Column Split"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:251
+msgid "Drop Contents Here"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:252
+msgid "Move this content"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:253
+msgid "Edit this content"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:254
+msgid "Copy this content"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:255
+msgid "Delete this content"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:256
+msgid "Save & Close"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:257
+msgid "Select an option"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:259
+msgid "Number of Images"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:260
+msgid "Upload an Image"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:261
+msgid "Browse Image"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:262
+msgid "Replace"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:263
+msgid "Link"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:264
+msgid "Alt"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:265
+msgid "Title"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:266
+msgid "Attribute"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:267
+msgid "Remove"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:268
+msgid "Close"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:269
+msgid "Set Image Link"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:270
+msgid "Set Image Alt Text"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:271
+msgid "Open Link In New Window"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:272
+msgid "Add More Image"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:273
+msgid "Add More Service"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:274
+msgid "Delete This Service"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:275
+msgid "URL"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:276
+msgid "Margins"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:277
+msgid "Edge to Edge"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:278
+msgid "Image Layout"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:279
+msgid "Caption"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:280
+msgid "Caption Position"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:281
+msgid "Display"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:282
+msgid "Icon Only"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:283
+msgid "Text Only"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:284
+msgid "Both Icon and Text"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:285
+msgid "Column"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:286
+msgid "Columns"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:287
+msgid "Page"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:288
+msgid "Pre Header"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:289
+msgid "Header"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:290
+msgid "Body"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:291
+msgid "Footer"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:292
+msgid "Lower Body"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:293
+msgid "Upper Body"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:294
+msgid "Upper Columns"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:295
+msgid "Lower Columns"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:296
+#: includes/class-templates.php:306
+msgid "Email"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:297
+msgid "Background"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:298
+msgid "Color"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:299
+msgid "Width"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:300
+msgid "Height"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:301
+msgid "Top"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:302
+msgid "Bottom"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:303
+msgid "Left"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:304
+msgid "Right"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:305
+msgid "Center"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:306
+msgid "Border"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:307
+msgid "Padding"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:308
+msgid "Margin"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:309
+msgid "Verticle Align"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:310
+msgid "Middle"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:311
+msgid "Baseline"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:312
+msgid "Font"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:313
+msgid "Size"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:314
+msgid "Align"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:315
+msgid "Radius"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:316
+msgid "Text Case"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:317
+msgid "Uppercase"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:320
+msgid "OK"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:321
+msgid "Default"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:322
+msgid "Block"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:323
+msgid "Container"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:324
+msgid "Layout"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:325
+msgid "Weight"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:326
+msgid "Normal"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:327
+msgid "Bold"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:328
+msgid "Icon Style"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:329
+msgid "Solid"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:330
+msgid "Outlined"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:331
+msgid "Divider Type"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:332
+msgid "Line"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:333
+msgid "Gallery"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:334
+msgid "Choose Divider"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:335
+msgid "Browse"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:336
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:337
+msgid "Are you sure you want to delete this content?"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:338
+msgid "Yes, delete it"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:339
+msgid "No, cancel it"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:340
+msgid "Filter by Post Type"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:341
+msgid "Categories and Tags"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:342
+msgid "Filter By Status"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:343
+msgid "Publish"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:344
+#: includes/class-email-campaign-list-table.php:108
+#: includes/class-email-campaign.php:80
+msgid "Draft"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:345
+msgid "Pending Review"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:347
+msgid "Private"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:348
+msgid "Hide"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:349
+msgid "Show"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:350
+msgid "Underline"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:351
+msgid "Hide Divider"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:352
+msgid "Excerpt"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:353
+msgid "Full Post"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:354
+msgid "Title and Image"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:355
+msgid "Insert Selected"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:356
+msgid "Load More"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:357
+msgid "Maximum Posts to Show"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:358
+msgid "Done"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:359
+msgid "Preview Template"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:360
+msgid "Select Template"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:361
+msgid "Select Theme"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:362
+#: includes/class-email-campaign-list-table.php:65
+#: includes/class-email-campaign.php:50 includes/class-email-campaign.php:714
+msgid "All"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:363
+msgid "Search Themes"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:364
+msgid ""
+"We'll link the URL above to a video preview image in your email. Preview "
+"images will be generated automatically for <a href=\"%s\">YouTube</a> and "
+"<a href=\"%s\">Vimeo</a> URLs."
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:365
+msgid ""
+"Sorry, we can't generate a preview image for that URL. Please upload an "
+"image."
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:366
+msgid "WordPress Posts"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:367
+msgid "Automatic Latest Content"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:368
+msgid "Icon"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:370
+msgid "Send Preview"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:371
+msgid "You need to input your email address."
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:372
+msgid "Preview"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:373
+msgid "Review Details"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:374
+msgid "characters remaining"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:375
+msgid "This field is required"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:376
+msgid "Invalid email address"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:377
+msgid "Name & email of yourself or your company."
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:378
+msgid "When the subscribers hit \"reply\" this is who will receive their emails."
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:379
+msgid "Google Analytics Campaign"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:380
+msgid "Email Content"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:381
+msgid "Font Family"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:382
+msgid "Font Size"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:383
+msgid "Restore to default"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:384
+msgid "Inherit"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:385
+msgid "No list found"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:386
+msgid "Add Shortcode"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:387
+msgid "no list found for this action"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:413
+#: includes/class-email-campaign-editor.php:414
+#: includes/class-email-campaign-editor.php:814
+#: includes/class-email-campaign-editor.php:834
+msgid "This is a text block. You can use it to add text to your template."
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:458
+msgid ""
+"Your text caption goes here. You can change the position of the caption and "
+"set styles in the block’s settings tab."
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:535
+msgid "Button Text"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:642
+#: includes/class-email-campaign-editor.php:749
+msgid "Read More"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:883
+msgid "when someone subscribes to the list"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:884
+msgid "when a new ERP user is created as"
+msgstr ""
+
+#: includes/class-email-campaign-editor.php:885
+msgid "when a contact added to the segment"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:50
+msgid "Search Campaign"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:70
+msgid "Automatic"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:86
+#: includes/class-email-campaign.php:86
+msgid "Active"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:101
+#: includes/class-email-campaign.php:74
+msgid "Sent"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:115
+#: includes/class-email-campaign.php:98
+msgid "Trashed"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:145
+#: includes/class-email-campaign-list-table.php:436
+msgid "Restore"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:146
+msgid "Delete Parmanently"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:151
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:308
+msgid "Open"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:309
+msgid "Click"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:310
+msgid "Unsub"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:312
+msgid "Created At"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:338
+msgid "No campaign found."
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:404
+msgid "Standard Newsletter"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:435
+msgid "Restore this item"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:442
+msgid "Permanently delete this item"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:443
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:473
+#: includes/class-email-campaign-list-table.php:517
+msgid "Duplicate this item"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:474
+#: includes/class-email-campaign-list-table.php:518
+#: includes/class-email-campaign.php:909
+#: views/email-campaign-single-view.php:71
+msgid "Duplicate"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:481
+#: includes/class-email-campaign-list-table.php:525
+msgid "Movie this item to Trash"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:482
+#: includes/class-email-campaign-list-table.php:526
+msgid "Trash"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:499
+msgid "Pause this campaign"
+msgstr ""
+
+#: includes/class-email-campaign-list-table.php:564
+#: views/email-campaign-single-view.php:28
+msgid "Sent to %s subscribers"
+msgstr ""
+
+#: includes/class-email-campaign.php:92
+msgid "Inactive"
+msgstr ""
+
+#: includes/class-email-campaign.php:199
+msgid "Contact Groups"
+msgstr ""
+
+#: includes/class-email-campaign.php:205
+msgid "Saved Searches"
+msgstr ""
+
+#: includes/class-email-campaign.php:716 includes/class-single-campaign.php:269
+msgid "Clicked"
+msgstr ""
+
+#: includes/class-email-campaign.php:717 includes/class-single-campaign.php:273
+msgid "Bounced"
+msgstr ""
+
+#: includes/class-email-campaign.php:756
+msgid "You attempted to edit an item that doesn’t exist. Perhaps it was deleted?"
+msgstr ""
+
+#: includes/class-email-campaign.php:758
+msgid ""
+"You can’t edit this item because it is in the Trash. Please restore it and "
+"try again."
+msgstr ""
+
+#: includes/class-email-campaign.php:1181
+msgid "Bounced email for the campaign &ldquo;%s&rdquo;"
+msgstr ""
+
+#: includes/class-email-campaign.php:1188
+msgid "Sent email for the campaign &ldquo;%s&rdquo; at %s"
+msgstr ""
+
+#: includes/class-email-campaign.php:1199
+msgid ""
+"Received email from the campaign &ldquo;%s&rdquo; at %s and then opened %s "
+"later."
+msgstr ""
+
+#: includes/class-email-campaign.php:1248
+msgid "No subscriber found"
+msgstr ""
+
+#: includes/class-hooks.php:220
+msgid "No subscriber on queue"
+msgstr ""
+
+#: includes/class-hooks.php:227
+msgid "You have subscriber on queue but cron is inactive"
+msgstr ""
+
+#: includes/class-hooks.php:231
+msgid "Cron is active and working"
+msgstr ""
+
+#: includes/class-single-campaign.php:254
+msgid "Unsubscribed"
+msgstr ""
+
+#: includes/class-single-campaign.php:256
+msgid "Subscribed"
+msgstr ""
+
+#: includes/class-single-campaign.php:261
+msgid "Unopened"
+msgstr ""
+
+#: includes/class-single-campaign.php:329
+msgid "<strong>%s</strong> Clicked"
+msgstr ""
+
+#: includes/class-single-campaign.php:330
+msgid "<strong>%s</strong> Opened but did not click"
+msgstr ""
+
+#: includes/class-single-campaign.php:331
+msgid "<strong>%s</strong> Not opened"
+msgstr ""
+
+#: includes/class-single-campaign.php:332
+msgid "<strong>%s</strong> Bounced"
+msgstr ""
+
+#: includes/class-single-campaign.php:333
+msgid "<strong>%s</strong> On Queue"
+msgstr ""
+
+#: includes/class-templates.php:302
+msgid "User"
+msgstr ""
+
+#: includes/class-templates.php:304
+msgid "First Name"
+msgstr ""
+
+#: includes/class-templates.php:305
+msgid "Last Name"
+msgstr ""
+
+#: includes/class-templates.php:307 includes/class-templates.php:365
+msgid "Company"
+msgstr ""
+
+#: includes/class-templates.php:307
+msgid "Company Name"
+msgstr ""
+
+#: includes/class-templates.php:308 includes/class-templates.php:370
+msgid "Phone"
+msgstr ""
+
+#: includes/class-templates.php:309 includes/class-templates.php:372
+msgid "Mobile"
+msgstr ""
+
+#: includes/class-templates.php:310
+msgid "Other"
+msgstr ""
+
+#: includes/class-templates.php:310
+msgid "other informations"
+msgstr ""
+
+#: includes/class-templates.php:312 includes/class-templates.php:371
+msgid "Fax"
+msgstr ""
+
+#: includes/class-templates.php:313
+msgid "Notes"
+msgstr ""
+
+#: includes/class-templates.php:313
+msgid "notes"
+msgstr ""
+
+#: includes/class-templates.php:314
+msgid "Street 1"
+msgstr ""
+
+#: includes/class-templates.php:314
+msgid "Street address 1"
+msgstr ""
+
+#: includes/class-templates.php:315
+msgid "Street 2"
+msgstr ""
+
+#: includes/class-templates.php:315
+msgid "Street address 2"
+msgstr ""
+
+#: includes/class-templates.php:316
+msgid "City"
+msgstr ""
+
+#: includes/class-templates.php:316
+msgid "City Name"
+msgstr ""
+
+#: includes/class-templates.php:317
+msgid "State"
+msgstr ""
+
+#: includes/class-templates.php:317
+msgid "State Name"
+msgstr ""
+
+#: includes/class-templates.php:318
+msgid "Postal Code"
+msgstr ""
+
+#: includes/class-templates.php:319
+msgid "Country"
+msgstr ""
+
+#: includes/class-templates.php:319
+msgid "Country Name"
+msgstr ""
+
+#: includes/class-templates.php:320
+msgid "Currency Code"
+msgstr ""
+
+#: includes/class-templates.php:321
+msgid "Currency Symbol"
+msgstr ""
+
+#: includes/class-templates.php:322
+msgid "Currency Name"
+msgstr ""
+
+#: includes/class-templates.php:322
+msgid "US Dollar"
+msgstr ""
+
+#: includes/class-templates.php:327
+msgid "Contact Custom Meta"
+msgstr ""
+
+#: includes/class-templates.php:335
+msgid "Company Custom Meta"
+msgstr ""
+
+#: includes/class-templates.php:343
+msgid "Newsletter"
+msgstr ""
+
+#: includes/class-templates.php:345
+msgid "Newsletter Subject"
+msgstr ""
+
+#: includes/class-templates.php:350
+msgid "Date"
+msgstr ""
+
+#: includes/class-templates.php:352
+msgid "Current date"
+msgstr ""
+
+#: includes/class-templates.php:353
+msgid "Full name of current day"
+msgstr ""
+
+#: includes/class-templates.php:354
+msgid "Short name of current day"
+msgstr ""
+
+#: includes/class-templates.php:355
+msgid "Current Month number"
+msgstr ""
+
+#: includes/class-templates.php:356
+msgid "Full name of current month"
+msgstr ""
+
+#: includes/class-templates.php:357
+msgid "Short name of current month"
+msgstr ""
+
+#: includes/class-templates.php:358
+msgid "Year"
+msgstr ""
+
+#: includes/class-templates.php:367
+msgid "Logo"
+msgstr ""
+
+#: includes/class-templates.php:369
+msgid "Mailing Address"
+msgstr ""
+
+#: includes/class-templates.php:374
+msgid "Currency"
+msgstr ""
+
+#: includes/class-templates.php:379 views/email-campaign-single-view.php:103
+msgid "Links"
+msgstr ""
+
+#: includes/class-templates.php:381
+msgid "Unsubscribe Link"
+msgstr ""
+
+#: includes/class-templates.php:381 includes/class-templates.php:721
+msgid "Unsubscribe"
+msgstr ""
+
+#: includes/class-templates.php:382
+msgid "Edit Subscription Page Link"
+msgstr ""
+
+#: includes/class-templates.php:382 includes/class-templates.php:735
+msgid "Edit your subscription"
+msgstr ""
+
+#: includes/class-templates.php:383
+msgid "Email Archive Link"
+msgstr ""
+
+#: includes/class-templates.php:383 includes/class-templates.php:749
+msgid "View this email in your browser"
+msgstr ""
+
+#: includes/cli/class-cli.php:22
+msgid "Campaign id is required"
+msgstr ""
+
+#: includes/cli/class-cli.php:43
+msgid "Campaign duplicated successfully"
+msgstr ""
+
+#: includes/cli/class-cli.php:45
+msgid "Could not duplicate"
+msgstr ""
+
+#: includes/cli/class-cli.php:73
+msgid "Campaigns deleted"
+msgstr ""
+
+#: includes/cli/class-cli.php:75
+msgid "Campaign deleted"
+msgstr ""
+
+#: includes/cli/class-cli.php:97
+msgid "No campaign found"
+msgstr ""
+
+#: includes/install/class-install.php:42
+msgid "You need to install WP-ERP main plugin to use this addon"
+msgstr ""
+
+#: includes/install/class-updates.php:103
+msgid ""
+"<strong>WP ERP - Email Campaign</strong> data update is required. We need "
+"to update your install to the latest version"
+msgstr ""
+
+#: includes/install/class-updates.php:106
+msgid "Run the updater"
+msgstr ""
+
+#: includes/install/class-updates.php:113
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you want to run the updater now?"
+msgstr ""
+
+#: views/edit-subscription.php:3
+msgid "Subscription update successfully."
+msgstr ""
+
+#: views/edit-subscription.php:9
+msgid "Your Lists"
+msgstr ""
+
+#: views/edit-subscription.php:36
+msgid "Update Subscription"
+msgstr ""
+
+#: views/email-campaign-list.php:2
+msgid "Email Campaigns"
+msgstr ""
+
+#: views/email-campaign-list.php:10
+msgid "Create New Campaign"
+msgstr ""
+
+#: views/email-campaign-single-view.php:5
+msgid "Campaign"
+msgstr ""
+
+#: views/email-campaign-single-view.php:11
+msgid "Summery"
+msgstr ""
+
+#: views/email-campaign-single-view.php:37
+msgid "Subject"
+msgstr ""
+
+#: views/email-campaign-single-view.php:55
+msgid "From"
+msgstr ""
+
+#: views/email-campaign-single-view.php:82
+msgid "Email Stats"
+msgstr ""
+
+#: views/email-campaign-single-view.php:88
+msgid "No email statistic found for this campaign"
+msgstr ""
+
+#: views/email-campaign-single-view.php:97
+msgid "Link Statistics"
+msgstr ""
+
+#: views/email-campaign-single-view.php:104
+msgid "Unique Clicks"
+msgstr ""
+
+#: views/email-campaign-single-view.php:105
+msgid "Total Clicks"
+msgstr ""
+
+#: views/email-campaign-single-view.php:111
+msgid "No link statistic found for this campaign"
+msgstr ""
+
+#: views/email-campaign-single-view.php:129
+msgid "Campaign Subscribers"
+msgstr ""
+
+#: views/email-campaign-single-view.php:150
+msgid "Subscriber's campaign activity"
+msgstr ""
+
+#: views/email-campaign-single-view.php:155
+msgid "Loading activity data"
+msgstr ""
+
+#: views/email-campaign-single-view.php:172
+msgid "Email sent"
+msgstr ""
+
+#: views/email-campaign-single-view.php:175
+msgid "Opened email"
+msgstr ""
+
+#: views/email-campaign-single-view.php:178
+msgid "Clicked link"
+msgstr ""
+
+#: views/unsubscribe.php:1
+msgid "Manage Subscription"
+msgstr ""
+
+#: wp-erp-email-campaign.php:136
+msgid ""
+"<strong>Error:</strong> <a href=\"%s\">WP ERP</a> Plugin is required to use "
+"Email Campaign plugin."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP ERP - Email Campaign"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wperp.com/downloads/erp-email-campaign"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Email Campaign add-on for WP ERP - CRM Module"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "weDevs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wedevs.com"
+msgstr ""

@@ -1,0 +1,252 @@
+/*
+ * Bootstrap v3.3.7
+ */
+.erp-close {
+  float: right;
+  font-size: 19.5px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+.erp-close:hover,
+.erp-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+button.erp-close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+.erp-email-campaign-modal-open {
+  overflow: hidden;
+}
+.erp-email-campaign-modal {
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999992;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.erp-email-campaign-modal.fade .erp-email-campaign-modal-dialog {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  -o-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+.erp-email-campaign-modal.in .erp-email-campaign-modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.erp-email-campaign-modal-open .erp-email-campaign-modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.erp-email-campaign-modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+.erp-email-campaign-modal-content {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: 0;
+}
+.erp-email-campaign-modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999991;
+  background-color: #000;
+}
+.erp-email-campaign-modal-backdrop.fade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.erp-email-campaign-modal-backdrop.in {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.erp-email-campaign-modal-header {
+  position: relative;
+  padding: 12px 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.erp-email-campaign-modal-header .erp-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  font: 300 1.71429em "dashicons" !important;
+  content: '\f335';
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.erp-email-campaign-modal-header .erp-close span {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  display: block;
+  margin-top: -5px;
+}
+.erp-email-campaign-modal-header .erp-close:hover {
+  background-color: transparent;
+}
+.erp-email-campaign-modal-header .erp-close:hover span {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.erp-email-campaign-modal-title {
+  margin: 0;
+  line-height: 1.3;
+  padding-right: 50px;
+  margin-top: 0;
+  color: #5d6d74;
+  font-size: 20px;
+  text-shadow: 0 1px 1px #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.erp-email-campaign-modal-body {
+  position: relative;
+  padding: 15px;
+}
+.erp-email-campaign-modal-body .erp-close {
+  position: absolute;
+  top: 9px;
+  right: 13px;
+}
+.erp-email-campaign-modal-body *:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.erp-email-campaign-modal-body *:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.erp-email-campaign-modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+.erp-email-campaign-modal-footer .button + .button {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.erp-email-campaign-modal-footer .button-group .button + .button {
+  margin-left: -1px;
+}
+.erp-email-campaign-modal-footer .button-block + .button-block {
+  margin-left: 0;
+}
+.erp-email-campaign-modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+@media (min-width: 782px) {
+  .erp-email-campaign-modal-dialog {
+    width: 600px;
+    margin: 50px auto 30px;
+  }
+  .erp-email-campaign-modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  .modal-sm {
+    width: 300px;
+  }
+}
+@media (min-width: 960px) {
+  .modal-lg {
+    width: 900px;
+  }
+  .erp-email-campaign-modal-content {
+    left: 80px;
+  }
+}
+.erp-badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #777777;
+  border-radius: 10px;
+}
+.erp-badge:empty {
+  display: none;
+}
+.btn .erp-badge {
+  position: relative;
+  top: -1px;
+}
+.btn-xs .erp-badge,
+.btn-group-xs > .btn .erp-badge {
+  top: 0;
+  padding: 1px 5px;
+}
+a.erp-badge:hover,
+a.erp-badge:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.list-group-item.active > .erp-badge,
+.nav-pills > .active > a > .erp-badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+.list-group-item > .erp-badge {
+  float: right;
+}
+.list-group-item > .erp-badge + .erp-badge {
+  margin-right: 5px;
+}
+.nav-pills > li > a > .erp-badge {
+  margin-left: 3px;
+}
+.erp-badge.erp-badge-success {
+  background-color: #46b450;
+}
+.erp-badge.erp-badge-error {
+  background-color: #d54e21;
+}
+.erp-badge.erp-badge-primary {
+  background-color: #0073aa;
+}

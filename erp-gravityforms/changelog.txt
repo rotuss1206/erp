@@ -1,0 +1,14 @@
+v1.1.0 - 26 October, 2018
+--------------------
+- [tweak] Gravity form integration menu moved under new ERP settings menu
+- [tweak] Updated the plugin license name
+
+v1.0.1 - 26 July, 2016
+--------------------
+
+- Add contact owner field in settings
+
+v1.0 - 26 April, 2016
+--------------------
+
+- Initial Release

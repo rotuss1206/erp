@@ -1,0 +1,36 @@
+= v1.2.0 ( 25 October, 2018 ) =
+--------------------------
+- [new] Compatibility with WP ERP v1.4.0
+- [fix] Capability issue resolved
+- [fix] Sever other scripts and styles updated
+
+= v1.1.3 ( 20 March, 2018 ) =
+--------------------------
+- [Enhance] Compatibility with WP ERP CRM module
+- [fix] Employee permission issue fix
+- [fix] Moving file or folder not working
+
+= v1.1.2 ( 30 January, 2018 ) =
+--------------------------
+- [fix] Translation is not working
+- [fix] Document tab is not visible to employees and HR Manager
+
+= v1.1.1 ( 27 Apr, 2017 ) =
+--------------------------
+- [tweak] Load scripts in specific pages
+- [tweak] Upload box wrapper design modified
+- [fix] Fix move operation in front-end
+- [fix] Rename script file names. Fix ajaxurl for frontend.
+- [fix] Fixed HR front-end issue
+- [fix] Rename operation fix in 1st and 2nd phase
+
+= v1.1 (26 July, 2016) =
+--------------------------
+ - Recursive child folder or files delete
+ - Employee search feature added
+ - Some js undefined and css fixed
+ - Some typo fix
+
+= v1.0 (26 April, 2016) =
+--------------------------
+ - Initial release

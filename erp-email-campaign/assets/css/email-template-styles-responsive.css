@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 640px) {
+  .section-row,
+  .ecamp-hr {
+    width: 100% !important;
+  }
+  .content-table {
+    display: block;
+    width: 100%;
+  }
+  .content-table tbody,
+  .content-table tr,
+  .content-table td {
+    display: block;
+    width: 100% !important;
+  }
+  .section-row-container > div > table {
+    display: block;
+    width: 100%;
+  }
+  .section-row-container > div > table > tbody {
+    display: block;
+    width: 100%;
+  }
+  .section-row-container > div > table > tbody > tr {
+    display: block;
+    width: 100%;
+  }
+  .section-row-container > div > table > tbody > tr > td {
+    display: block;
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  .wrapper.preHeader * {
+    text-align: center !important;
+  }
+}

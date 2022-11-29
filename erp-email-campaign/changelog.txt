@@ -1,0 +1,21 @@
+= v1.1.0 (30 Oct, 2018) =
+--------------------------
+- [new] Add segmentation support for automatic emails. Resolves #10
+- [new] Add Text only template
+- [new] Add image button in text-editor component
+- [new] Add text-only template image
+- [new] Add placeholder data for user shortcodes
+- [new] Add Scheduled sending feature for standard campaigns
+- [new] Add shortcode button for email subject
+- [new] Add subscriber campaign activitiy timeline
+- [new] Save campaign before preview template and send preview
+- [new] Save campaign right after selecting a template
+- [new] Show company name in single page list table
+- [new] Validate people email before insert into queue
+- [tweak] Email campaign menu moved under new ERP menu
+- [tweak] Remove plain text only option
+- [tweak] Remove TinyMCE branding from text editor
+
+= v1.0.0 (26 July, 2016) =
+--------------------------
+- Initial release

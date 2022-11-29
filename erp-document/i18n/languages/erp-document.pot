@@ -1,0 +1,209 @@
+# Copyright (C) 2018 weDevs
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP ERP - Document Manager 1.2.0\n"
+"Report-Msgid-Bugs-To: http://wperp.com/support/\n"
+"POT-Creation-Date: 2018-10-25 10:56:34+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n1.0.1\n"
+
+#: erp-document.php:259
+msgid "HR Management"
+msgstr ""
+
+#: erp-document.php:286
+msgid "Move"
+msgstr ""
+
+#: erp-document.php:287 includes/admin/views/crm-document.php:31
+#: includes/admin/views/view-company-file-system-list.php:31
+#: includes/admin/views/view-file-system-list.php:31
+msgid "Move to"
+msgstr ""
+
+#: erp-document.php:295
+msgid "Allowed Files"
+msgstr ""
+
+#: erp-document.php:316 erp-document.php:319 erp-document.php:361
+#: erp-document.php:413 includes/admin/views/crm-document.php:3
+msgid "Documents"
+msgstr ""
+
+#: includes/admin/views/crm-document.php:26
+#: includes/admin/views/view-company-file-system-list.php:26
+#: includes/admin/views/view-file-system-list.php:26
+msgid "Create Folder"
+msgstr ""
+
+#: includes/admin/views/crm-document.php:36
+#: includes/admin/views/view-company-file-system-list.php:36
+#: includes/admin/views/view-file-system-list.php:36
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/views/crm-document.php:47
+#: includes/admin/views/view-company-file-system-list.php:49
+#: includes/admin/views/view-file-system-list.php:47
+msgid "Check All"
+msgstr ""
+
+#: includes/admin/views/crm-document.php:48
+#: includes/admin/views/view-company-file-system-list.php:50
+#: includes/admin/views/view-file-system-list.php:48
+msgid "Modified"
+msgstr ""
+
+#: includes/admin/views/crm-document.php:49
+#: includes/admin/views/view-company-file-system-list.php:51
+#: includes/admin/views/view-file-system-list.php:49
+msgid "Created by"
+msgstr ""
+
+#: includes/admin/views/crm-document.php:50
+#: includes/admin/views/view-company-file-system-list.php:52
+#: includes/admin/views/view-file-system-list.php:50
+msgid "File size"
+msgstr ""
+
+#: includes/admin/views/crm-document.php:120
+#: includes/admin/views/view-company-file-system-list.php:121
+#: includes/admin/views/view-file-system-list.php:119
+msgid "This folder is empty"
+msgstr ""
+
+#: includes/admin/views/js-templates/dir-tree.php:1
+msgid "Move folder to..."
+msgstr ""
+
+#: includes/admin/views/js-templates/dir-tree.php:8
+msgid "Home"
+msgstr ""
+
+#: includes/admin/views/view-company-file-system-list.php:2
+msgid "Company Documents"
+msgstr ""
+
+#: includes/admin/views/view-file-system-list.php:2
+msgid "Employee Documents"
+msgstr ""
+
+#: includes/class-doc-ajax.php:141
+msgid "The file could not deleted"
+msgstr ""
+
+#: includes/class-doc-ajax.php:143
+msgid "File has been deleted"
+msgstr ""
+
+#: includes/class-doc-ajax.php:146
+msgid "File could not deleted"
+msgstr ""
+
+#: includes/class-doc-ajax.php:279
+msgid "Deleted successfully"
+msgstr ""
+
+#: includes/class-doc-ajax.php:281
+msgid "Could not deleted"
+msgstr ""
+
+#: includes/class-doc-ajax.php:299
+msgid "Folder name already exits"
+msgstr ""
+
+#: includes/class-doc-ajax.php:336
+msgid "Folder created successfully"
+msgstr ""
+
+#: includes/class-doc-ajax.php:368
+msgid "Given name already exits!"
+msgstr ""
+
+#: includes/class-doc-ajax.php:392
+msgid "Renamed successfully"
+msgstr ""
+
+#: includes/class-doc-ajax.php:458 includes/functions-file.php:71
+msgid "Delete File"
+msgstr ""
+
+#: includes/class-doc-ajax.php:678
+msgid "Moved successfully"
+msgstr ""
+
+#: includes/class-doc-log.php:80
+msgid "<strong>%s</strong> %s has been created (for company)"
+msgstr ""
+
+#: includes/class-doc-log.php:82
+msgid "<strong>%s</strong> %s has been created (for employee)"
+msgstr ""
+
+#: includes/class-doc-log.php:86
+msgid "<strong>%s</strong> %s has been uploaded (for company)"
+msgstr ""
+
+#: includes/class-doc-log.php:88
+msgid "<strong>%s</strong> %s has been uploaded (for employee)"
+msgstr ""
+
+#: includes/class-doc-log.php:129
+msgid "<strong>%s</strong> has been deleted (employee)"
+msgstr ""
+
+#: includes/class-doc-log.php:165
+msgid "<strong>%s</strong> %s has been renamed to %s (company)"
+msgstr ""
+
+#: includes/class-doc-log.php:167
+msgid "<strong>%s</strong> %s has been renamed to %s (emplyee)"
+msgstr ""
+
+#: includes/class-doc-log.php:220
+msgid "<strong>%s</strong> has been moved to %s (company)"
+msgstr ""
+
+#: includes/class-doc-log.php:222
+msgid "<strong>%s</strong> has been moved to %s (emplyee)"
+msgstr ""
+
+#: includes/class-doc-log.php:228
+msgid "previous parent name was "
+msgstr ""
+
+#: includes/class-doc-log.php:229
+msgid "new parent name is "
+msgstr ""
+
+#: includes/functions-file.php:84
+msgid ""
+"<a class=\"fileUpload button button-primary\" id=\"doc-upload-pickfiles%s\" "
+"href=\"#\"><span class=\"fa fa-lg fa-upload\"></span>Upload</a>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP ERP - Document Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wperp.com/downloads/document-manager/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Manage your employee and company documents."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "weDevs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wedevs.com"
+msgstr ""

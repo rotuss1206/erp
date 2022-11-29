@@ -1,0 +1,14 @@
+.erp-email-campaign-cron-activity.inactive {
+    background-color: #dc3232 !important;
+}
+
+.erp-email-campaign-cron-activity.active {
+    background-color: #46b450 !important;
+}
+
+.erp-email-campaign-cron-activity .dashicons {
+    font-family: dashicons !important;
+    line-height: 34px !important;
+    height: 32px !important;
+}
+

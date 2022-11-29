@@ -1,0 +1,78 @@
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content p.not-found {
+  padding: 0px 7px;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content ul {
+  margin-bottom: 0px;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content ul li {
+  padding: 10px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #eee;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content ul li:last-child {
+  border-bottom: none;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content ul li .orderid-ammount {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content ul li .orderid-ammount a {
+  text-decoration: none;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content ul li .date-status {
+  font-style: italic;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content ul li .date-status .order-date {
+  color: #afafaf;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content ul li .date-status .order-status.completed {
+  color: #2ea2cc;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content ul li .date-status .order-status.pending {
+  color: #ffba00;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content ul li .date-status .order-status.on-hold {
+  color: #d0c21f;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content ul li .date-status .order-status.processing {
+  color: #73a724;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content ul li .date-status .order-status.failed {
+  color: #e14d43;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-order-info .customer-latest-order-content ul li .date-status .order-status.refunded {
+  color: #999;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-purchased-product .customer-latest-purchased-product-content {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-purchased-product .customer-latest-purchased-product-content p.not-found {
+  padding: 0px 7px;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-purchased-product .customer-latest-purchased-product-content ul {
+  margin-bottom: 0px;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-purchased-product .customer-latest-purchased-product-content ul li {
+  padding: 10px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #eee;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-purchased-product .customer-latest-purchased-product-content ul li:last-child {
+  border-bottom: none;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-purchased-product .customer-latest-purchased-product-content ul li a {
+  text-decoration: none;
+}
+.erp-single-customer-content .erp-single-customer-row .customer-latest-purchased-product .customer-latest-purchased-product-content ul li .item-variation {
+  color: #afafaf;
+  font-style: italic;
+  margin: 3px 0px;
+}
+.erp-single-customer-content h3.timeline-header-order-note {
+  cursor: default !important;
+}

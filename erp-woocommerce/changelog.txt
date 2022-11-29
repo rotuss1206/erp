@@ -1,0 +1,37 @@
+= v1.3.1 ( 09 Jan, 2020 ) =
+--------------------------
+- [fix] Wrong function name that causes fatal error on sync
+
+= v1.3.0 ( 02 Sep, 2019 ) =
+--------------------------
+- [new] Compatible with new accounting module
+
+= v1.1.0 (25 Oct, 2018) =
+--------------------------
+- [New] Add subscription checkbox on checkout
+- [New] Add billing address into sales invoice
+- [Fix] Fatal error on checkout
+- [Fix] WC version compare for subscription
+- [Fix] Duplicating customer
+- [Fix] Error on invalid order
+- [Fix] Purched product list issue
+- [Tweak] Add indexing in MySQL Table
+
+= v1.0.2 (18 Apr, 2017) =
+--------------------------
+ - [Fix] Fix plugin initializing issue
+
+= v1.0.1 (13 Apr, 2017) =
+-------------------------
+- [New] Add support for WooCommerce 3.0+ with backward compatibility
+- [New] Use a single function for syncing order, removes code duplication
+- [Fix] Fix order sync when user has multiple billing email
+- [Fix] Fix order importing issue when order billing data not found
+- [Tweak] Check if WooCommerce is active or not before init
+- [Tweak] Add support for registered checkout after guest checkout with same email
+- [Tweak] Give customer permission to create invoice at run time
+
+= v1.0.0 - 18 Jan, 2017 =
+-------------------------
+
+- Initial Release
